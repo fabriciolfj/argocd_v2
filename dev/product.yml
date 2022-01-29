@@ -69,7 +69,7 @@ kind: Service
 metadata:
   name: products
 spec:
-  type: ClusterIP
+  type: NodePort
   ports:
     - protocol: TCP
       port: 8080
